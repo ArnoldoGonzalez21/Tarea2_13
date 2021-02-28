@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Arnoldo González">
+    <title>Tutorial</title>
+    <link rel="shortcut icon" href="imagenes/Favicon/logoTutorial.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body id="bodyTotal" background="imagenes/Tutorial/FondoTutorial.jpg">
+
+    <div id="container">
+        <header>
+            <h1>Tutorial para realizar una clase en Java</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Pagina principal</a></li>
+                <li><a href="Curriculum.html">Mi Curriculum</a></li>
+                <li><a href="PeliculaFavorita.html">Mi Película Favorita</a></li>
+                <li><a href="VideojuegoFavorito.html">Mi Videojuego Favorito</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="clearfix"></div>
+
+        <section id="contentTutorial">
+
+            <article class="articleTutorial">
+                <table class="TableTutorial">
+
+                    <th class="titleTable" colspan="2">
+                        <font size=5>Pasos a realizar:</font>
+                    </th>
+                    <tr>
+                        <td><b><u>Paso 1: Crear una nueva clase</u> </b> 
+                            <li>Click derecho sobre el paquete </li> 
+                            <li>Seleccione New </li>
+                            <li>Click en Java Class </li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/1.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 2: Crear los atributos</u> </b> 
+                            <li>Escribir los atributos de la clase Auto </li> 
+                            <li>Atributo de tipo String que será la marca del automovil </li>
+                            <li>Atributo de tipo int que es el modelo del automovil</li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/2.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 3: Crear el método constructor</u> </b> 
+                            <li>Inicializar los atributos por medio del constructor </li> 
+                            <li>Para ello se escribe dentro de los parámetros del constructor los atributos del automovil </li>
+                            <li>Utilizar this.atributo para hacer referencia a cada atributo y se igual al parámetro </li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/3.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 4: Crear un método</u> </b> 
+                            <li>Crear un método para ver las características del automovil </li>                            
+                            <li>Este método sera public para poder acceder desde cualquier otra clase</li> 
+                            <li>Es de tipo void porque no retorna ningún valor</li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/4.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 5: Dar las instrucciones al método</u> </b> 
+                            <li>Imprimir la marca del automovil instanciando el parámetro con this.marca </li> 
+                            <li>Imprimir el modelo del automovil instanciando el parámetro con this.modelo </li> </td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/5.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 6: Crear getters y setters</u> </b> 
+                            <li>Click derecho sobre cualquier parte del programa </li> 
+                            <li>Dirigirse a Refactor </li>
+                            <li>Dar click en Encapsulate Fields </li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/6.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 7: Crear getters y setters</u> </b> 
+                            <li>Se abrirá una ventana donde estarán los atributos de la clase Auto </li> 
+                            <li>Dar click en Select All, para seleccionar todos los atributos</li>
+                            <li>Click en Refactor </li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/7.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 8: Getters y Setters creados</u> </b> 
+                            <li>Se abran creado los getters y setters </li> 
+                            <li>Los atributos de la clase auto serán de tipo private </li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/8.1.png"> 
+                            <img class="FotosTutorialR" src="imagenes/Tutorial/8.2.png"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 9: Crear una nueva clase</u> </b> 
+                            <li>Crear una nueva clase como se vio en el paso 1</li> 
+                            <li>Esta clase se llamará Transporte</li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/9.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 10: Crear un método en la clase Transporte</u> </b> 
+                            <li>Crear una clase denominada mostrarDescripción </li> 
+                            <li>Instanciarla en el método constructor de la clase</li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/10.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 11: Instancia de la clase Auto a la clase Transporte</u> </b> 
+                            <li>En el método mostrarDescripción </li> 
+                            <li>Llamar a la clase a la que se quiere instanciar Auto </li>
+                            <li>Ponerle un nombre a la variable nuevoAuto  </li>
+                        <li>Igualar con new, la clase y los parámetros que tiene dicha clase </li>
+                         <li>En los parámetros se debe escribir los atributos de la clase Auto </li>
+                            <li>Instanciar el método de la clase Auto con nuevoAuto.Método</li></td> 
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/11.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 12: Accerder a los atributos de la clase Auto</u> </b> 
+                            <li>Instanciar el nombre variable y el atributo que se quiere obtener </li> 
+                            <li>Para accerder a los atributos debe ser por medio de getAtributo</li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/12.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 13: Instanciar en el main la clase Transporte</u> </b> 
+                            <li>Se esribe en el main new Transporte para instanciar el método constructor de la clase Transporte  </li></td>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/13.png"> </td>
+                    </tr>
+                    <tr>
+                        <td><b><u>Paso 14: Ejecutar el programa</u> </b> 
+                            <li>Ejecutar con el botón Run</li>
+                        <td><img class="FotosTutorialR" src="imagenes/Tutorial/14.png"> </td>
+                    </tr>
+                    
+         
+                </table>
+            </article>
+
+
+
+        </section>
+
+        <aside class="asideTutorial">
+
+            <article class="articleAside">Navega en las otras paginas haciendo click en las imagenes o en el menú de
+                navegación
+            </article>
+            <article class="articleAside">
+                <h1>Index</h1>
+                <a title="Página principal" href="../index.html">
+                    <img class="link2" img src="imagenes/Enlaces/redIndex.png" alt="Index.html" /></a>
+            </article>
+            <article class="articleAside">
+                <h1>Mi Curriculum</h1>
+                <a title="Mi Curriculum" href="Curriculum.html">
+                    <img class="link2" img src="imagenes/Enlaces/redCV.png" alt="Mi Curriculum" /></a>
+            </article>
+            <article class="articleAside">
+                <h1>Mi Película Favorita</h1>
+                <a title="Mi Película Favorita" href="PeliculaFavorita.html">
+                    <img class="link2" img src="imagenes/Enlaces/redFAV.png" alt="Mi Película Favorita" /></a>
+            </article>
+            <article class="articleAside">
+                <h1>Mi Videojuego Favorito</h1>
+                <a title="Mi Videojuego Favorito" href="VideojuegoFavorito.html">
+                    <img class="link2" img src="imagenes/Enlaces/redVG.png" alt="Mi Videojuego Favorito" /></a>
+
+        </aside>
+
+        <audio src="Audio/MúsicaTutorial.mp3"  preload="none" controls></audio>
+        <div class="clearfix"></div>
+        <footer>
+            Tarea #2 IPC1 Sección B 
+        </footer>
+    </div>
+</body>
+
+</html>

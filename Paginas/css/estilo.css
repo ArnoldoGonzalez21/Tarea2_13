@@ -1,0 +1,352 @@
+*{ /* afecta a todo */
+    margin: 0px; /* quitar el margen de todos los elementos de la pagina */
+    
+}
+
+#bodyIndex{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; /* tipo de letra */    
+}
+#bodyTotal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* tipo de letra */    
+}
+#container{ /* seleccionando identificador */
+    
+    width: 1100px; 
+    margin: 0px auto; /* centrar el elemento */
+    border: 1px solid black; /* color borde */
+    border-left: 0px;
+    border-right: 0px;
+}
+
+header{ 
+    background-color: #6376F6;
+    height: 100px;
+    width: 100%;
+    margin: 0px; /* quitar margenes */
+    text-align: center; /* centrar texto */
+    line-height: 100px; /* alinear verticalmente el texto con la altura */
+    color: black;
+    border: 1px solid black; /* borde punteado  */
+    font-size: 120%;
+    
+}
+
+nav{
+    background: #9EAAF9;
+    height: 50px;
+    border-top: 0px;
+    border: 1px solid black;
+}
+nav ul li{
+    float: left; /* cada elemento a la izquierda */
+    list-style: none;
+    margin: 10px;    
+    line-height: 30px;
+}
+
+.clearfix{
+    clear: both; /*hacer que la siguiente linea se separe*/
+}
+#contentCV{
+    float: left;
+    width: calc(80% - 40px);    
+    min-height: 500px;
+    padding: 10px;
+    padding-left: 30px;
+}
+#contentFAV{
+    float: left;
+    width: calc(80% - 40px);    
+    min-height: 500px;
+    padding: 10px;
+    padding-left: 30px; 
+}    
+#contentTutorial{
+    float: left;
+    width: calc(80% - 40px);    
+    min-height: 500px;
+    padding: 10px;
+    padding-left: 20px; 
+}    
+
+#contentIndex{
+    float: left;
+    width: calc(100% - 40px);    
+    background:transparent;
+    min-height: 500px;
+    padding: 20px;
+    
+}
+.asideCV{
+    
+    float: left;
+    width: calc(20% - 22px);    
+    background: #F3F936; 
+    min-height: 100%;
+    padding: 10px;
+    padding-top: 15.4%;   
+    padding-bottom: 63%;   
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    border-top: 0px solid black;
+}
+.asideFAV{
+    
+    float: left;
+    width: calc(20% - 22px);    
+    background: #F3F936; 
+    min-height: 100%;
+    padding: 10px;
+    padding-top: 15.4%;   
+    padding-bottom: 66%;   
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    border-top: 0px solid black;
+}
+.asideTutorial{
+    
+    float: left;
+    width: calc(20% - 22px);    
+    background: #F3F936; 
+    min-height: 100%;
+    padding: 10px;
+    padding-top: 17%;   
+    padding-bottom: 398%;   
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    border-top: 0px solid black;
+}
+.asideVG{
+    
+    float: left;
+    width: calc(20% - 22px);    
+    background: #F3F936; 
+    min-height: 100%;
+    padding: 10px;
+    padding-top: 15.4%;   
+    padding-bottom: 72%;   
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    border-top: 0px solid black;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.article{
+   color:black;
+   margin-top: 15px; 
+   margin-bottom: 15px; 
+   padding-bottom: 10px;
+   border-bottom: 1px solid #eee;
+   text-align: left;   
+   
+}
+.articleAside{
+    color:black;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center; 
+}
+.articleFav{
+    color:black;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-align: justify;   
+    
+ }
+ .articleTutorial{
+    color:black;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-align: justify;   
+    
+ }
+ 
+.article:first-child{
+    color:black;
+   margin-top: 15px; 
+   margin-bottom: 15px; 
+   padding-bottom: 10px;
+   border-bottom: 1px solid #eee;
+   text-align: justify; 
+}
+.articleI{
+    color:white;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;   
+    
+ }
+
+.article h2{
+    font-size: 25px;
+   
+}
+.datetime{
+    color:white;
+    margin-top: 40px; 
+    margin-bottom: 15px; 
+    padding-bottom: 10px;
+    text-align: center;   
+    
+}
+.FotoPerfil{
+    padding: 10px;
+    margin: 1px; 
+    border: 1px dashed black; 
+    float: right; 
+    width: 14%;
+
+}
+.FotosTutorialR{
+    padding: 10px;
+    margin: 1px; 
+    border: 0px; 
+    float: center; 
+    width: 99%;
+
+}
+.FotoFav{
+    padding: 10px;
+    margin: 1px; 
+    border: 0px dashed black; 
+    float: right; 
+    width: 26%;
+
+}
+.FotosParrafoL{
+    padding: 10px;
+    margin: 1px; 
+    border: 0px dashed black; 
+    float: left; 
+    width: 23%;
+}
+.FotoTitulo{
+    padding: 10px;
+    margin: 1px; 
+    border: 0px dashed black; 
+    float: right; 
+    width: 7%;
+}
+.FotoTitulo2{
+    padding: 10px;
+    margin: 1px; 
+    border: 0px dashed black; 
+    float: left; 
+    width: 7%;
+}
+.FotosPokR{
+    padding: 10px;
+    margin: 2px; 
+    border: 0px dashed black; 
+    float: right; 
+    width: 50%;
+}
+.FotosPokR2{
+    padding: 10px;
+    margin: 2px; 
+    border: 0px dashed black; 
+    float: right; 
+    width: 40%;
+
+}
+.FotosPokR3{
+    padding: 10px;
+    margin: 2px; 
+    border: 0px dashed black; 
+    float: right; 
+    width: 27%;
+
+}
+.FotosParrafoR{
+    padding: 10px;
+    margin: 2px; 
+    border: 0px dashed black; 
+    float: right; 
+    width: 23%;
+}
+.FotoVideoR{
+    padding: 10px;
+    margin: 0px; 
+    border: 0px dashed black; 
+    float: center; 
+    width: 20%;
+
+}
+.TableTutorial{
+    width: 100%;
+    color: black;
+    text-align:justify; 
+    background-color: orangered;
+}
+.AllTable{
+    width: 90%;
+    color: black;
+    text-align:center; 
+    background-color: orangered;
+}
+.EducationTable{
+    width: 90%;
+    color: black; 
+}
+.AchievementsTable{
+    width: 90%;
+    color: black;   
+}
+.Habilidades{
+    width: 90%;
+    color: black;    
+}
+.DatosPersonales{
+    width: 90%;
+    color: black;    
+}
+.Metas{
+    width: 90%;
+    color: black;    
+}
+td{
+    background-color: #BEE7B7;    
+    border: black 2px solid;    
+    padding: 13px;
+}
+
+th{
+    border: black 2px solid;    
+    padding: 10px;
+    background-color: #D1B7E7;  
+}
+.link{
+    width: 40%;
+    height:40%;
+    
+}
+.link2{
+    width: 70%;
+    height: 70%;    
+}
+#TodoTexto{
+    width: 85%;
+    text-align: justify;
+    padding: 20px ;
+    background-color: lightcyan;
+    border: black 1px solid;
+}
+
